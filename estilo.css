@@ -1,0 +1,43 @@
+* {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.botao {
+    background-color: darkorange;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    line-height: 40px;
+    margin-bottom: 5px;
+    min-height: 40px;
+    min-width: 250px;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    min-width: 250px;
+    margin-bottom: 5px;
+    min-height: 40px;
+    padding: 0 10px;
+}
